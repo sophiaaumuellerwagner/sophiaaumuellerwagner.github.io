@@ -4,5 +4,4 @@ local:
 
 publish:
 	cat general.yml github.yml > _config.yml
-	cd _sites
-	git add . && git commit -m "update" && git push
+	cd _site && git add . && git commit -m "update" && git push
