@@ -1,26 +1,106 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<h2>List of Projects</h2>
+  <head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Sophia Aumüller-Wagner</title>
+  <meta name="description" content="Website of Sophia Aumüller-Wagner, Diversity Consultant, Project Manager, Workshop Instructor, Sociologist.
+">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/sophia.css">
+
+  <!-- Not sure what this does yet --->
+  <link rel="canonical" href="http://localhost:4000/projects.html">
+  <link rel="alternate" type="application/rss+xml" title="Sophia Aumüller-Wagner" href="http://localhost:4000/feed.xml" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+</head>
+
+
+  <body>
+      <div class="container" style="margin-top: 5%">
+      <div class="row">
+          <div class = "three columns"> 
+              <h4>Sophia Aumüller-Wagner</h4>
+<p>Diversity Consultant | Project Manager | Workshop Instructor | Sociologist</p>
+<ul>
+    <li><a href="/aboutme.html">About me</a></li>
+    <li><a href="/projects.html">Projects</a></li>
+    <li><a href="/ressources.html">Ressources</a></li>
+</ul>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/sophia-aumüller-wagner" data-format="click" data-related="false"></script>
+
+          </div>
+          <div class = "nine columns">
+              <h2>List of Projects</h2>
 <p>This is a list of selected projects I carried out.</p> 
-{% assign rows = site.posts.size | divided_by: 3.0 | ceil %}
-{% for i in (1..rows) %} 
+
+ 
 <div class="row">
-    {% assign offset = forloop.index0 | times: 3 %}
-    {% for post in site.posts limit: 3 offset: offset %}
+    
+    
     <div class="four columns">
         <div class="thumbnail">
-        <a href="{{post.url}}"><img src="{{ post.feature }}" class="thumbnail"></a>
+        <a href="/2018/01/01/IDCN.html"><img src="images/idcn-feature.png" class="thumbnail"></a>
         </div>
-        <p>{{ post.title }}
-        {% if post.carried_out %}
-        ({{ post.carried_out}})
-        {% endif %}
+        <p>IDCN: Getting internationals into jobs
+        
+        (2017&mdash;)
+        
         </p>
     </div>
-    {% endfor %}
+    
+    <div class="four columns">
+        <div class="thumbnail">
+        <a href="/2016/10/10/Japan-Workshop.html"><img src="images/japan-feature.jpg" class="thumbnail"></a>
+        </div>
+        <p>Japan & Racism Workshop
+        
+        (2016)
+        
+        </p>
+    </div>
+    
+    <div class="four columns">
+        <div class="thumbnail">
+        <a href="/2014/12/12/NDC.html"><img src="images/ndc-pic1.jpg" class="thumbnail"></a>
+        </div>
+        <p>NDC: Educational Workshops for Students
+        
+        (2014&mdash;2015)
+        
+        </p>
+    </div>
+    
 </div>
-{% endfor %}
+
 </ul>
 
+
+          </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
