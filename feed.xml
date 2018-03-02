@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Mar 2018 21:44:08 +0100</pubDate>
-    <lastBuildDate>Fri, 02 Mar 2018 21:44:08 +0100</lastBuildDate>
+    <pubDate>Fri, 02 Mar 2018 21:59:47 +0100</pubDate>
+    <lastBuildDate>Fri, 02 Mar 2018 21:59:47 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -40,11 +40,8 @@
 &lt;p&gt;&lt;strong&gt;I designed and customized a workshop about racism in Japan and ways to fight it in everyday life.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Part 1: “What is racism?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Part 2: “How can we speak up against racism?”&lt;/p&gt;
+  &lt;p&gt;Part 1: “What is racism?”&lt;br /&gt;
+Part 2: “How can we speak up against racism?”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;figure&gt;
@@ -63,8 +60,10 @@
 
 &lt;p&gt;As a main part of the workshop, we watched the movie &lt;strong&gt;Hafu&lt;/strong&gt;, which draws a very intimate picture of what racial discriminations looks like in present-day Japan.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DKp_rYenvGg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;figure&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;display:block; margin: 0 auto;&quot; src=&quot;https://www.youtube.com/embed/DKp_rYenvGg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;figcaption&gt;『ハーフ』Hafu - the mixed-race experience in Japan&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;The most challenging part of the workshop was the actual implementation of our knowledge in everyday life. The participants had a lot of freedom designing their posters and theatre sketch. At the end, we engaged in a concluding discussion about practicability and obstacles of our ideas and strategies.&lt;/p&gt;
 

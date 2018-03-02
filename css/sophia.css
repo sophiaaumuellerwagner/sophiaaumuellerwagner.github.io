@@ -33,4 +33,12 @@ a {
     color: #666;
 }
 
+figcaption {
+  text-align:center;
+}
+
+figure {
+  margin: 1em 0;
+}
+
 
