@@ -4,4 +4,4 @@ local:
 
 publish:
 	cat general.yml github.yml > _config.yml
-	cd _site && git add . && git commit -m "update" && git push
+	cd _site && git add . && git commit --allow-empty -m "update" && git push
